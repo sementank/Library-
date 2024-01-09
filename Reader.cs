@@ -74,7 +74,7 @@ namespace libary
             return $"Читатель: {ReaderId}, {LastName} {FirstName} {MiddleName}, Дата рождения: {DateOfBirth.ToShortDateString()}, Телефон: {PhoneNumber}";
         }
 
-        // Другие методы, связанные с управлением данными читателя, можно добавить здесь
+        // Другие методы, связанные с управлением данными читателя
     }
 
 }

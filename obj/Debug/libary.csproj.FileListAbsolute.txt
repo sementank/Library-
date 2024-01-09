@@ -16,7 +16,7 @@ C:\NEW\obj\Debug\libary.exe
 C:\NEW\obj\Debug\libary.pdb
 C:\NEW\obj\Debug\LibraryStaffView.g.cs
 C:\NEW\obj\Debug\LibraryStaffView.baml
-C:\NEW\obj\Debug\MainWindom.g.cs
-C:\NEW\obj\Debug\MainWindom.baml
 C:\NEW\obj\Debug\ReaderView.baml
 C:\NEW\obj\Debug\ReaderView.g.cs
+C:\NEW\obj\Debug\LoginWindow.baml
+C:\NEW\obj\Debug\LoginWindow.g.cs

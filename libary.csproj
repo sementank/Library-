@@ -60,13 +60,12 @@
     </ApplicationDefinition>
     <Compile Include="Book.cs" />
     <Compile Include="FileStorage.cs" />
-    <Compile Include="Interface1.cs" />
     <Compile Include="LibraryStaff.cs" />
     <Compile Include="LibraryStaffView.xaml.cs">
       <DependentUpon>LibraryStaffView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindom.xaml.cs">
-      <DependentUpon>MainWindom.xaml</DependentUpon>
+    <Compile Include="LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Reader.cs" />
     <Compile Include="ReaderView.xaml.cs">
@@ -80,7 +79,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MainWindom.xaml">
+    <Page Include="LoginWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
