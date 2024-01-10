@@ -31,8 +31,7 @@ namespace libary
             string password = pwdPassword.Password;
             string role = ((ComboBoxItem)cmbRole.SelectedItem)?.Content as string;
 
-            // Предположим, что пароль для всех пользователей одинаковый - "password123"
-            if (password == "password123")
+            if (password == "")
             {
                 if (role == "Читатель")
                 {
@@ -53,5 +52,12 @@ namespace libary
                 MessageBox.Show("Неверный пароль или имя пользователя", "Ошибка входа", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+        private void btnRegister_Click(object sender, RoutedEventArgs e)
+        {
+            // Открытие окна регистрации
+            RegistrationWindow registrationWindow = new RegistrationWindow();
+            registrationWindow.Show();
+        }
+
     }
 }

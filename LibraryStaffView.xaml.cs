@@ -28,7 +28,8 @@ namespace libary
 
         private void AddBook_Click(object sender, RoutedEventArgs e)
         {
-            // Логика для добавления новой книги
+            AddBookWindow addBookWindow = new AddBookWindow();
+            addBookWindow.ShowDialog(); // Показать окно как модальное диалоговое окно
         }
 
         private void DeleteBook_Click(object sender, RoutedEventArgs e)

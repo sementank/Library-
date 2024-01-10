@@ -1,8 +1,8 @@
 ﻿<Window x:Class="libary.LoginWindow"
                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Вход в систему" Height="300" Width="400">
-    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
+        Title="Вход в систему" Height="320" Width="400">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="296">
         <TextBlock Text="Имя пользователя:" Margin="5"/>
         <TextBox x:Name="txtUsername" Width="200" Height="25" Margin="5"/>
 
@@ -16,5 +16,7 @@
         </ComboBox>
 
         <Button x:Name="btnLogin" Content="Войти" Width="200" Height="35" Margin="10" Click="btnLogin_Click" />
+        <Button x:Name="btnRegister" Content="Регистрация" Width="200" Height="35" Margin="10" Click="btnRegister_Click" />
+
     </StackPanel>
 </Window>

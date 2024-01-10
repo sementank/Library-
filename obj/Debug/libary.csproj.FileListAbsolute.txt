@@ -20,3 +20,7 @@ C:\NEW\obj\Debug\ReaderView.baml
 C:\NEW\obj\Debug\ReaderView.g.cs
 C:\NEW\obj\Debug\LoginWindow.baml
 C:\NEW\obj\Debug\LoginWindow.g.cs
+C:\NEW\obj\Debug\RegistrationWindow.baml
+C:\NEW\obj\Debug\RegistrationWindow.g.cs
+C:\NEW\obj\Debug\AddBookWindow.baml
+C:\NEW\obj\Debug\AddBookWindow.g.cs
